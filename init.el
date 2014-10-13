@@ -1,11 +1,6 @@
 ;; # Load bindings config
 (live-load-config-file "bindings.el")
 
-;; # Nav
-(live-add-pack-lib "nav")
-(require 'nav)
-(nav-disable-overeager-window-splitting)
-
 (require 'js2-mode)
 (add-to-list 'auto-mode-alist '("\\.jsx\\'" . js2-mode))
 
