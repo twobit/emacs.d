@@ -57,5 +57,8 @@
 (setq message-log-max nil)
 (kill-buffer "*Messages*")
 
+;; Enable shift selections
+(setq shift-select-mode t)
+
 ;; Hide compile log
 (kill-buffer "*Compile-Log*")
